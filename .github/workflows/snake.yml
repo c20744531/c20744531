@@ -1,98 +1,57 @@
 name: GitHub Snake Game
 
-
-
 on:
-
-  # Schedule the workflow to run daily at midnight UTC
-
+  # Run daily at midnight UTC
   schedule:
-
     - cron: "0 0 * * *"
 
-
-
-  # Allow manual triggering of the workflow
-
+  # Allow manual runs from the Actions tab
   workflow_dispatch:
 
-
-
-  # Trigger the workflow on pushes to the main branch
-
+  # Run on pushes to main
   push:
-
     branches:
-
       - main
 
-
+permissions:
+  contents: write
 
 jobs:
-
   generate:
-
     runs-on: ubuntu-latest
-
     timeout-minutes: 10
 
-
-
     steps:
-
-      # Step 1: Checkout the repository
-
+      # Step 1: Checkout the repository (needed for scripts/power-star.mjs)
       - name: Checkout Repository
+        uses: actions/checkout@v4
 
-        uses: actions/checkout@v3
-
-
-
-      # Step 2: Generate the snake animations
-
+      # Step 2: Generate the base snake animations
       - name: Generate GitHub Contributions Snake Animations
-
         uses: Platane/snk@v3
-
         with:
-
-          # GitHub username to generate the animation for
-
           github_user_name: ${{ github.repository_owner }}
-
-
-
-          # Define the output files and their configurations
-
           outputs: |
-
             dist/github-snake.svg
-
             dist/github-snake-dark.svg?palette=github-dark
-
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-
         env:
-
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # Step 3: Swap the snake for a rainbow Power Star with a rainbow trail.
+      # snk runs in Docker so dist/ is owned by root; write into public/ instead.
+      - name: Turn the Snake into a Power Star
+        run: |
+          mkdir -p public
+          cp dist/ocean.gif public/
+          node scripts/power-star.mjs dist/github-snake.svg public/github-snake.svg
+          node scripts/power-star.mjs dist/github-snake-dark.svg public/github-snake-dark.svg
 
-
-      # Step 3: Deploy the generated files to the 'output' branch
-
+      # Step 4: Deploy the generated files to the 'output' branch
       - name: Deploy to Output Branch
-
-        uses: peaceiris/actions-gh-pages@v3
-
+        uses: peaceiris/actions-gh-pages@v4
         with:
-
           github_token: ${{ secrets.GITHUB_TOKEN }}
-
-          publish_dir: ./dist
-
+          publish_dir: ./public
           publish_branch: output
-
-          # Optionally, you can set a custom commit message
-
-          commit_message: "Update snake animation [skip ci]"
-
+          commit_message: "Update power star animation [skip ci]"

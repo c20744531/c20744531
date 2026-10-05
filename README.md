@@ -23,5 +23,9 @@ Here are some ideas to get you started:
 
 <div align= "center">
   
-  ![snake gif](https://github.com/c20744531/c20744531/blob/output/github-snake-dark.svg)
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/c20744531/c20744531/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/c20744531/c20744531/output/github-snake.svg" />
+    <img alt="rainbow power star eating my contributions" src="https://raw.githubusercontent.com/c20744531/c20744531/output/github-snake-dark.svg" />
+  </picture>
 </div>
