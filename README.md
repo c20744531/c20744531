@@ -26,6 +26,40 @@ I'm very creative, but I'm also the person who notices the 2px misalignment and 
 
 My background in **finance, fraud analysis and auditing** means I'm used to being careful, asking "does this add up?" and not trusting something just because it looks right.
 
+## 🚀 Featured Projects
+
+### [🎣 Anglers Access](https://c20744531.github.io/AnglersAccess/)
+
+An online marketplace for Irish fishing permits, built for my final-year thesis at TU Dublin. Anglers find fisheries on a map, filter by county or species, see where to park, and book a day or weekly permit online. Only 10 of Ireland's 127 fisheries were selling permits online, so I set out to test whether anglers and clubs actually wanted this.
+
+<a href="https://c20744531.github.io/AnglersAccess/"><img src="https://raw.githubusercontent.com/c20744531/AnglersAccess/main/images/permits.png" alt="Anglers Access permits page" width="600" /></a>
+
+- 📋 Surveyed **74 anglers**: **61%** would rather book online
+- 🤝 Pitched **51 fisheries** and signed up **9 clubs** across 7 counties
+- 🛠️ Built with WordPress, WooCommerce, Google Maps and Stripe in four Agile sprints
+- ⭐ Rated **9/10** by fishery representatives in testing
+
+[**View the project →**](https://c20744531.github.io/AnglersAccess/) · [Repo](https://github.com/c20744531/AnglersAccess)
+
+### 📊 Data Analysis
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://c20744531.github.io/IrelandBirthStats/"><img src="https://raw.githubusercontent.com/c20744531/IrelandBirthStats/main/docs/screenshots/overview.png" alt="Irish Baby Names site" /></a>
+      <h4><a href="https://c20744531.github.io/IrelandBirthStats/">👶 Irish Baby Names, 1964 to 2025</a></h4>
+      <p>62 years of CSO data cleaned and analysed in SQL. Rían ended Jack's eight-year run at number one in 2025, and Irish spellings with fadas are on the rise.</p>
+      <p><b>SQL</b> · Python · JavaScript · <a href="https://github.com/c20744531/IrelandBirthStats">Repo</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://c20744531.github.io/NetflixViewingAnalysis/"><img src="https://raw.githubusercontent.com/c20744531/NetflixViewingAnalysis/main/docs/screenshots/overview.png" alt="Netflix Viewing Analysis site" /></a>
+      <h4><a href="https://c20744531.github.io/NetflixViewingAnalysis/">🎬 Netflix Viewing Analysis</a></h4>
+      <p>Two and a half years of my own viewing history: binge sessions, weekend habits, top genres and a world map of where my shows are made.</p>
+      <p><b>SQL</b> · Python · JavaScript · <a href="https://github.com/c20744531/NetflixViewingAnalysis">Repo</a></p>
+    </td>
+  </tr>
+</table>
+
 ## 💻 Tech Stack
 
 **Design & Video**
@@ -41,6 +75,7 @@ My background in **finance, fraud analysis and auditing** means I'm used to bein
 
 **Data & Infrastructure**
 <br>
+<img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL" />
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
 <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge" alt="AWS" />
 <img src="https://img.shields.io/badge/Apache-D42029?style=for-the-badge&logo=apache&logoColor=white" alt="Apache" />
