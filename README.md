@@ -26,6 +26,21 @@ I'm very creative, but I'm also the person who notices the 2px misalignment and 
 
 My background in **finance, fraud analysis and auditing** means I'm used to being careful, asking "does this add up?" and not trusting something just because it looks right.
 
+## 🚀 Featured Project
+
+### [🎣 Anglers Access](https://c20744531.github.io/AnglersAccess/)
+
+An online marketplace for Irish fishing permits, built for my final-year thesis at TU Dublin. Anglers find fisheries on a map, filter by county or species, see where to park, and book a day or weekly permit online. Only 10 of Ireland's 127 fisheries were selling permits online, so I set out to test whether anglers and clubs actually wanted this.
+
+<a href="https://c20744531.github.io/AnglersAccess/"><img src="https://raw.githubusercontent.com/c20744531/AnglersAccess/main/images/permits.png" alt="Anglers Access permits page" width="600" /></a>
+
+- 📋 Surveyed **74 anglers**: **61%** would rather book online
+- 🤝 Pitched **51 fisheries** and signed up **9 clubs** across 7 counties
+- 🛠️ Built with WordPress, WooCommerce, Google Maps and Stripe in four Agile sprints
+- ⭐ Rated **9/10** by fishery representatives in testing
+
+[**View the project →**](https://c20744531.github.io/AnglersAccess/) · [Repo](https://github.com/c20744531/AnglersAccess)
+
 ## 💻 Tech Stack
 
 **Design & Video**
