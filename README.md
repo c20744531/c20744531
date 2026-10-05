@@ -111,7 +111,7 @@ An online marketplace for Irish fishing permits, built for my final-year thesis 
 Always happy to chat about projects, collabs or anything creative and data-related.
 
 <!-- Add your links here, for example:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-NAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)][(https://linkedin.com/in/YOUR-NAME](https://www.linkedin.com/in/azeez-folawiyo-b68730206/))
 -->
 
 <div align="center">
