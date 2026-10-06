@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hey, I'm Azeez 👋
+# Hey, I'm Azeez 👋🏿
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=800&color=A855F7&center=true&vCenter=true&width=520&lines=Data+Analyst;Web+Developer;UX%2FUI+Designer;Video+Editor;Graphic+Designer" alt="Data Analyst, Web Developer, UX/UI Designer, Video Editor, Graphic Designer" />
 
