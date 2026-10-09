@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Irish Road Sign Quiz</title>
+  <meta name="description" content="Practise Irish road signs for the driver theory test. Pick the right answer out of four and learn what each sign means." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <h1>Irish Road Sign Quiz</h1>
+      <p class="sub">Pick what the sign means. Get it wrong and you'll see why.</p>
+    </header>
+
+    <!-- Start screen -->
+    <section id="start" class="card">
+      <p>15 random signs from Irish roads: warning, regulatory and information signs.</p>
+      <button id="startBtn" class="btn primary">Start quiz</button>
+    </section>
+
+    <!-- Question screen -->
+    <section id="quiz" class="card hidden">
+      <div class="status">
+        <span id="progress">Question 1 of 15</span>
+        <span id="score">Score: 0</span>
+      </div>
+      <div class="bar"><div id="barFill" class="bar-fill"></div></div>
+
+      <div id="sign" class="sign"></div>
+      <p class="question">What does this sign mean?</p>
+
+      <div id="options" class="options"></div>
+
+      <div id="feedback" class="feedback hidden">
+        <p id="feedbackTitle" class="feedback-title"></p>
+        <p id="explanation"></p>
+      </div>
+
+      <button id="nextBtn" class="btn primary hidden">Next sign</button>
+    </section>
+
+    <!-- Results screen -->
+    <section id="result" class="card hidden">
+      <h2 id="resultTitle"></h2>
+      <p id="resultText"></p>
+      <button id="restartBtn" class="btn primary">Try again</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
