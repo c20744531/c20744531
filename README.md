@@ -41,6 +41,19 @@ An online marketplace for Irish fishing permits, built for my final-year thesis 
 
 [**View the project →**](https://c20744531.github.io/AnglersAccess/) · [Repo](https://github.com/c20744531/AnglersAccess)
 
+### [🚦 Irish Road Sign Quiz](https://c20744531.github.io/irish-road-sign-quiz/)
+
+A quiz game for learning Irish road signs before the driver theory test. Each round shows 15 random signs with 4 options. Pick the right one and it turns green, pick wrong and it goes red and shows you the right answer, with an explanation of what the sign means either way.
+
+<a href="https://c20744531.github.io/irish-road-sign-quiz/"><img src="https://raw.githubusercontent.com/c20744531/irish-road-sign-quiz/main/screenshot.png" alt="Irish Road Sign Quiz" width="400" /></a>
+
+- 🛑 **27 signs**: warning, regulatory, mandatory and motorway
+- ✅ Wrong answers come from the same type of sign, so you can't just guess
+- 🎨 Every sign is drawn in code (SVG), so there are no image files
+- 🛠️ Built with plain HTML, CSS and JavaScript
+
+[**Play the quiz →**](https://c20744531.github.io/irish-road-sign-quiz/) · [Repo](https://github.com/c20744531/irish-road-sign-quiz)
+
 ### 📊 Data Analysis
 
 <table>
